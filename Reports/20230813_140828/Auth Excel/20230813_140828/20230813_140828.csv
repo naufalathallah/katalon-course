@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Auth Excel,Chrome 115.0.0.0,,,2023-08-13 14:08:40,2023-08-13 14:09:06,26.782s,FAILED
+,,,,,,,
+Test Cases/Auth Test/Form Auth Excel,Chrome 115.0.0.0,,,2023-08-13 14:08:40,2023-08-13 14:08:50,10.262s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-13 14:08:40,2023-08-13 14:08:44,3.268s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 115.0.0.0,,,2023-08-13 14:08:44,2023-08-13 14:08:48,4.354s,PASSED
+"click(findTestObject(""Object Repository/Auth Page/a_Form Authentication""))",Chrome 115.0.0.0,,,2023-08-13 14:08:48,2023-08-13 14:08:49,1.240s,PASSED
+"setText(findTestObject(""Object Repository/Auth Page/input_Username_username""), tcUname)",Chrome 115.0.0.0,,,2023-08-13 14:08:49,2023-08-13 14:08:50,0.779s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Auth Page/input_Password_password""), tcPassword)",Chrome 115.0.0.0,,,2023-08-13 14:08:50,2023-08-13 14:08:50,0.273s,FAILED
+,,,,,,,
+Test Cases/Auth Test/Form Auth Excel,Chrome 115.0.0.0,,,2023-08-13 14:08:50,2023-08-13 14:08:58,8.159s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-13 14:08:50,2023-08-13 14:08:52,1.830s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 115.0.0.0,,,2023-08-13 14:08:52,2023-08-13 14:08:56,4.256s,PASSED
+"click(findTestObject(""Object Repository/Auth Page/a_Form Authentication""))",Chrome 115.0.0.0,,,2023-08-13 14:08:56,2023-08-13 14:08:58,1.215s,PASSED
+"setText(findTestObject(""Object Repository/Auth Page/input_Username_username""), tcUname)",Chrome 115.0.0.0,,,2023-08-13 14:08:58,2023-08-13 14:08:58,0.664s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Auth Page/input_Password_password""), tcPassword)",Chrome 115.0.0.0,,,2023-08-13 14:08:58,2023-08-13 14:08:58,0.173s,FAILED
+,,,,,,,
+Test Cases/Auth Test/Form Auth Excel,Chrome 115.0.0.0,,,2023-08-13 14:08:58,2023-08-13 14:09:06,7.956s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-13 14:08:58,2023-08-13 14:09:00,1.767s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 115.0.0.0,,,2023-08-13 14:09:00,2023-08-13 14:09:04,4.193s,PASSED
+"click(findTestObject(""Object Repository/Auth Page/a_Form Authentication""))",Chrome 115.0.0.0,,,2023-08-13 14:09:04,2023-08-13 14:09:05,1.120s,PASSED
+"setText(findTestObject(""Object Repository/Auth Page/input_Username_username""), tcUname)",Chrome 115.0.0.0,,,2023-08-13 14:09:05,2023-08-13 14:09:06,0.681s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Auth Page/input_Password_password""), tcPassword)",Chrome 115.0.0.0,,,2023-08-13 14:09:06,2023-08-13 14:09:06,0.185s,FAILED

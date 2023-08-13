@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Test Suite,Chrome 115.0.0.0,,,2023-08-10 20:42:37,2023-08-10 20:43:05,27.747s,PASSED
+,,,,,,,
+Test Cases/Auth Test/Custom - Business,Chrome 115.0.0.0,,,2023-08-10 20:42:37,2023-08-10 20:42:50,12.786s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-10 20:42:37,2023-08-10 20:42:40,2.469s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 115.0.0.0,,,2023-08-10 20:42:40,2023-08-10 20:42:45,5.059s,PASSED
+"click(findTestObject(""Object Repository/Auth Page/a_Form Authentication""))",Chrome 115.0.0.0,,,2023-08-10 20:42:45,2023-08-10 20:42:46,1.360s,PASSED
+"herokuapp.User.Login(""tomsmith"", ""T6bVo8B8lVC7U1u1L64B7tu+ltX9y9HI"")",Chrome 115.0.0.0,,,2023-08-10 20:42:46,2023-08-10 20:42:49,2.517s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Auth Page/h4_Welcome to the Secure Area. When you are_5c73fc""))",Chrome 115.0.0.0,,,2023-08-10 20:42:49,2023-08-10 20:42:49,0.376s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-10 20:42:49,2023-08-10 20:42:50,0.665s,PASSED
+,,,,,,,
+Test Cases/Mouse hover,Chrome 115.0.0.0,,,2023-08-10 20:42:50,2023-08-10 20:43:05,14.685s,PASSED
+"openBrowser(""https://the-internet.herokuapp.com/hovers"")",Chrome 115.0.0.0,,,2023-08-10 20:42:50,2023-08-10 20:42:56,6.137s,PASSED
+"mouseOver(findTestObject(""hover/image hover 1""))",Chrome 115.0.0.0,,,2023-08-10 20:42:56,2023-08-10 20:42:57,0.716s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-10 20:42:57,2023-08-10 20:42:59,2.025s,PASSED
+"takeScreenshot(""D:/Coding/Katalon/project-awal/ss/tes-ss.png"")",Chrome 115.0.0.0,,,2023-08-10 20:42:59,2023-08-10 20:42:59,0.396s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-10 20:42:59,2023-08-10 20:43:01,2.005s,PASSED
+common.Utilities.refreshBrowser(),Chrome 115.0.0.0,,,2023-08-10 20:43:01,2023-08-10 20:43:02,0.447s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-10 20:43:02,2023-08-10 20:43:04,2.005s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-10 20:43:04,2023-08-10 20:43:05,0.641s,PASSED
